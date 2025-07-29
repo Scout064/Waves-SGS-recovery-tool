@@ -29,7 +29,7 @@ This live ISO is designed for technicians and engineers who need a **failsafe to
 
 At boot:
 1. The system **auto-logs in as root**
-2. The recovery script `flash-img.sh` **automatically runs**
+2. The recovery script `flash-img.sh` **automatically runs** (located in `/usr/local/bin`)
 3. You are presented with a **list of available target disks**
 4. Upon confirmation, it flashes the embedded image (e.g. `waves-firmware.img`) using `dd`
 
@@ -67,4 +67,9 @@ Output:
 You can change the Firmware Image by swapping the `sgs.iso` in `config/includes.chroot/root/`.
 Make sure that the iso includes a valid partitiontable (preferably an image from a working server).
 
-Right now, the included `sgs.iso` is the v14.X image.
+## Disclaimer
+
+Right now, the included `sgs.iso` is a nonbootable dummy image.
+Due to obvious legal reasons, you'll have to source the image on your own.
+Or, if you own a original Waves SoundGrid Server (with functioning internal USB Stick), generate the boot Image on your own.
+Again, for legal reasons, I canot provide guidance on how to do that.
