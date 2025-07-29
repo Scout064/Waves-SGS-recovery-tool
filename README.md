@@ -21,7 +21,6 @@ This live ISO is designed for technicians and engineers who need a **failsafe to
 
 - Reflashing bricked SoundGrid Server
 - Creating a clean USB recovery stick for firmware repair
-- Field servicing without access to Internet or Windows tools
 
 ---
 
@@ -31,7 +30,7 @@ At boot:
 1. The system **auto-logs in as root**
 2. The recovery script `flash-img.sh` **automatically runs** (located in `/usr/local/bin`)
 3. You are presented with a **list of available target disks**
-4. Upon confirmation, it flashes the embedded image (e.g. `waves-firmware.img`) using `dd`
+4. Upon confirmation, it flashes the embedded image (e.g. `sgs.iso`) using `dd`
 
 ---
 
@@ -39,7 +38,7 @@ At boot:
 
 1. 🛠️ Build the ISO (see below)
 2. 🔥 Flash it to a USB drive (`dd`, `Rufus`, `balenaEtcher`, etc.)
-3. 🖥️ Boot the Waves device or target PC from this USB
+3. 🖥️ Boot the Waves Server or target PC from this USB
 4. 📋 Follow the on-screen instructions to select and flash the firmware
 
 ---
