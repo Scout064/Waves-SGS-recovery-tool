@@ -68,7 +68,7 @@ Make sure that the iso includes a valid partitiontable (preferably an image from
 
 ## Disclaimer
 
-Right now, the included `sgs.iso` is a nonbootable dummy image.
-Due to obvious legal reasons, you'll have to source the image on your own.
-Or, if you own a original Waves SoundGrid Server (with functioning internal USB Stick), generate the boot Image on your own.
-Again, for legal reasons, I canot provide guidance on how to do that.
+Right now, the included `sgs.iso` is a nonbootable dummy image. 
+Due to obvious legal reasons, you'll have to source the image on your own. 
+Or, if you own an original Waves SoundGrid Server (with functioning internal USB Stick), generate the boot Image on your own. 
+Again, for legal reasons, I can't provide guidance on how to do that.
