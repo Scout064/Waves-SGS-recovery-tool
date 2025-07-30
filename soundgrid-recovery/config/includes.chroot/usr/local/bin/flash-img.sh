@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ISO_PATH="/root/sgs.iso"
+ISO_PATH="/root/sgs.img"
 clear
 
 cat <<'EOF'
