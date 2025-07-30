@@ -30,7 +30,7 @@ At boot:
 1. The system **auto-logs in as root**
 2. The recovery script `flash-img.sh` **automatically runs** (located in `/usr/local/bin`)
 3. You are presented with a **list of available target disks**
-4. Upon confirmation, it flashes the embedded image (e.g. `sgs.iso`) using `dd`
+4. Upon confirmation, it flashes the embedded image (e.g. `sgs.img`) using `dd`
 
 ---
 
@@ -63,12 +63,12 @@ Output:
 
 `live-image-amd64.hybrid.iso`
 
-You can change the Firmware Image by swapping the `sgs.iso` in `config/includes.chroot/root/`.
-Make sure that the iso includes a valid partitiontable (preferably an image from a working server).
+You can change the Firmware Image by swapping the `sgs.img` in `config/includes.chroot/root/`.
+Make sure that the img includes a valid volume (preferably an image from a working server).
 
 ## Disclaimer
 
-Right now, the included `sgs.iso` is a nonbootable dummy image. 
+Right now, the included `sgs.img` is a nonbootable dummy image. 
 Due to obvious legal reasons, you'll have to source the image on your own. 
 Or, if you own an original Waves SoundGrid Server (with functioning internal USB Stick), generate the boot Image on your own. 
 Again, for legal reasons, I can't provide guidance on how to do that.
